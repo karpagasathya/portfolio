@@ -1,0 +1,137 @@
+
+
+*{
+    box-sizing: border-box;
+}
+ 
+
+/* heading in navbar */
+.navbar-brand {
+  height: 80px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 70px;
+  color: #fff;
+  background: #4aaaa5; 
+}
+
+#navbar{
+   border-bottom: 1px solid #aaa;
+}
+.navbar-nav{
+  font-size: 20px;  
+}
+
+.navbar-right > li {
+    margin-top: 15px;
+    border-left: 1px solid #efefef;
+}
+
+.navbar-right > li:first-of-type
+{
+    border-left: none;
+}
+
+#myname{
+  color: white;
+
+}
+#myname:hover{
+  color:yellow;
+}
+
+
+
+/* heading inside the body container */
+
+h1, h2{
+    color: #4aaaa5; 
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    border-bottom: 2px solid #aaa;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: black;
+    background-color: lightgrey;
+  
+}
+
+
+/* footer  */
+
+#footer{
+   border-top: 8px solid #4aaaa5;
+  
+}
+#icons{
+  text-align: center;
+}
+
+#mail{
+  color:#4aaaa5;
+  text-align: center;
+}
+
+i{
+  font-size: 20px;
+}
+
+#github,
+#linkedin{
+  transition: color 0.2s;
+}
+
+#github:hover{
+  color:  #dc4e41;
+
+}
+  
+#linkedin:hover{
+  color: #dc4e41;
+}
+
+/* portfolio page*/
+.caption {
+  width: 100%;
+  bottom: 10px;
+  position: absolute;
+  background: #4aaaa5;
+}
+
+.thumbnail {
+  
+  border: 0 none;
+  box-shadow: none;
+  margin: 50px;
+  opacity: 0.9;
+  padding: 0;
+  max-width: 250px;  /* computed max-width of img-fluid */
+}
+
+.caption h3 {
+  color: #fff;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  
+}
+
+ .caption:hover{
+  transform: rotate(-4deg) scale(1.1, 1.1);
+} 
+
+/* contact page  */
+.btn {
+  background: #4aaaa5;
+  color: white;
+}
