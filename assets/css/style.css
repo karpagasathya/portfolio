@@ -90,11 +90,13 @@ body{
   font-size: 25px;
 }
 
-#mail,#phone,#resume{
+#mail,#phone,#resume,#more{
   color:#e07b39;
   font-size: 18px;
 }
-
+#mailto{
+  color:white;
+}
 
 #github,
 #linkedin,#mailbox{
@@ -108,7 +110,7 @@ body{
 }
   
 #contact{
-  color:#e07b39;
+  color:white;
   font-size: 18px;
 }
 
@@ -131,7 +133,7 @@ body{
 }
 
 .card-title {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .card-text {
