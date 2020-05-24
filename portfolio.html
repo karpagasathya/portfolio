@@ -5,118 +5,152 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/616f60f3ca.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>sathya - portfolio</title>
   </head>
   <body>
     <header>
          <!-- bootstarp navigation bar and links -->
-        <nav class="navbar navbar-expand-md navbar-light bg-light pl-5 py-0">
-            <a class="navbar-brand px-3" href="#" id="myname">Sathya Guru</a>
+        <nav class="navbar navbar-expand-md navbar-light bg-dark pl-5 py-0">
+            <a class="navbar-brand px-3" href="index.html" id="myname">Sathya Guru</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
         <div class="collapse navbar-collapse justify-content-end px-5" id="navbarNav">
             <ul class="nav navbar-nav navbar-right">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
+                    <a class="nav-link" href="index.html" id="navlink">About</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="portfolio.html" id="navlink">Portfolio<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="contact.html" id="navlink">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 </header>
 
-        <!-- portfolio section -->
-<div class="card ml-5 mt-5 mb-5 py-5 w-75 p-3" >
-    <!-- Row 1 -->
-    <div class="row">
-        <div class="col-md-12 main-section">
-            <h2 class="mx-3 pb-3">Portfolio</h2>
-            <!-- Row 2 -->
-            <section class="row">
-                <div class="col-md-5">
-                    <div class="col-sm-12 thumbnail text-center">
-                        <a target="_blank" href="https://tribeofbenjamin.github.io/InspirationalToDo/" >
-                            <img class="img-fluid" src="assets/images/todo1.jpg" alt="image 1" >
-                            <div class="caption">
-                                <h3>Inspire</h3>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-        
-                <div class="col-md-5">
-                    <div class="col-sm-12 thumbnail text-center">
-                        <a target="_blank" href="https://karpagasathya.github.io/hw4_code_quiz/" >
-                            <img class="img-fluid" src="assets/images/quiz.png" alt="image 2">
-                            <div class="caption">
-                                <h3>Code Quiz</h3>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </section>
 
-            <!-- Row 3 -->
-            <section class="row">
-                <div class="col-md-5">
-                    <div class="col-sm-12 thumbnail text-center">
-                        <a target="_blank" href="https://karpagasathya.github.io/weather_dashboard/" >
-                            <img class="img-fluid" src="assets/images/weather.jpg" alt="image 3">
-                            <div class="caption">
-                                <h3>Weather Dashboard</h3>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                    
-                <div class="col-md-5">
-                    <div class="col-sm-12 thumbnail text-center">
-                        <a target="_blank" href="">
-                            <img class="img-fluid" src="https://via.placeholder.com/300" alt="image 4">
-                            <div class="caption">
-                                <h3>Title 4</h3>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </section>
+<div class="row mx-auto mt-3" id="portfolio">
+            <div id="portfolio-div" class="col-sm-12 content-div">
+                <h2 class="portfolio ml-5">Portfolio</h2>
 
-            <!-- Row 4 -->
-            <section class="row">
-                <div class="col-md-5">
-                    <div class="col-sm-12 thumbnail text-center">
-                        <a target="_blank" href="" >
-                            <img class="img-fluid " src="https://via.placeholder.com/300" alt="image 5">
-                            <div class="caption">
-                                <h3>Title 5</h3>
+                <div class="row ml-3">
+                    <div class="col-md-8" data-aos="fade-right">
+                        <div class="card mb-3 text-white bg-dark mb-3 rounded-card">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 hover-img">
+                                    <a href="https://karpagasathya.github.io/Inspirational_todo/"target="_blank"><img src="assets/images/todo1.jpg" class="card-img" alt="Todo list"></a>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Inspire</h5>
+                                        <p class="card-text"></p>
+                                        <p class="card-text">Built with HTML5, CSS/Bootstrap, JavaScript/jQuery, and APIs</p>
+                                        <a id="githubLink" href="https://github.com/karpagasathya/Inspirational_todo" target="_blank">GitHub Repository</a>
+                                    </div>
+                                </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
-        
-                <div class="col-md-5">
-                </div> 
-            </section>
-        </div>      
-    </div>
-</div>
+                <div class="row">
+                    <div class="col-md-8 offset-lg-4 offset-md-4" data-aos="fade-left">
+                        <div class="card mb-3 text-white bg-dark mb-3 rounded-card">
+                            <div class="row no-gutters">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">code Quiz</h5>
+                                        <p class="card-text"> </p>
+                                        <p class="card-text">Built with HTML5, CSS/Bootstrap, JavaScript</p>
+                                        <a id="githubLink" href="https://github.com/karpagasathya/code_quiz" target="_blank">GitHub Repository</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 hover-img">
+                                    <a href="https://karpagasathya.github.io/hw4_code_quiz/" target="_blank" class="card-img" alt="code quiz"><img src="assets/images/quiz.png" class="card-img" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ml-3">
+                    <div class="col-md-8" data-aos="fade-right">
+                        <div class="card mb-3 text-white bg-dark mb-3 rounded-card">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 hover-img">
+                                    <a href=" https://karpagasathya.github.io/weather_dashboard/" target="_blank" class="card-img" alt="Weather dashboard"><img src="assets/images/weather.jpg" class="card-img" alt="..."></a>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Weather Dasboard</h5>
+                                        <p class="card-text"></p>
+                                        <p class="card-text">Built with HTML5, CSS/Bootstrap, JavaScript/jQuery, and APIs</p>
+                                        <a id="githubLink" href="https://github.com/karpagasathya/weather_dashboard" target="_blank">GitHub Repository</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-5 pb-5">
+                    <div class="col-md-8 offset-lg-4 offset-md-4" data-aos="fade-left">
+                        <div class="card mb-3 text-white bg-dark mb-3 rounded-card">
+                            <div class="row no-gutters">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Work Day Scheduler</h5>
+                                        <p class="card-text"></p>
+                                        <p class="card-text">Built with HTML5, CSS/Bootstrap</p>
+                                        <a id="githubLink" href="https://github.com/karpagasathya/workday_scheduler" target="_blank">GitHub Repository</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 hover-img">
+                                    <a href="https://karpagasathya.github.io/workday_scheduler/" target="_blank" class="card-img" alt="workday scheduler"><img src="assets/images/planner.png" class="card-img" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
     <!-- footer content -->
     <footer class="fixed-bottom bg-dark" id="footer">
-      <div class="footer-copyright text-center py-3">
-        © 2020 Copyright: SG
+        <div class="row my-2  mr-5">
+            <div class="col-md-7 ">
+          <div class="footer-copyright pr-0 mt-2">© 2020 Copyright: SG</div>
       </div>
+      <div class="col-md-5" id="icons">
+        
+        <ul class="list-inline mb-0 mr-4">
+            <li class="list-inline-item">
+                <a  id="github" target="_blank" href="https://github.com/karpagasathya">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="list-inline-item mx-3">
+                <a  id="linkedin" target="_blank" href="https://www.linkedin.com/in/karpagasathya-gurupandi-33bb0690/">
+                   <i class="fab fa-linkedin-in"></i>
+                </a>  
+            </li>
+            <li class="list-inline-item">
+                <a  id="mailbox" target="_blank" href="mailto:karpagasathya@gmail.com">
+                    <i class="fa fa-fw fa-envelope"></i>
+                </a>
+            </li>
+       </ul>
+      </div>
+        </div> 
     </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script> 
   </body>
 </html>

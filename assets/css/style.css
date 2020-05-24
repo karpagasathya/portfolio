@@ -7,25 +7,29 @@
 
 /* heading in navbar */
 .navbar-brand {
-  height: 80px;
+  height: 60px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 700;
-  line-height: 70px;
-  color: #fff;
-  background: #4aaaa5; 
+  line-height: 50px;
+  color:#4aaaa5;
 }
 
-#navbar{
+/* #navbar{
    border-bottom: 1px solid #aaa;
-}
+} */
 .navbar-nav{
   font-size: 20px;  
 }
 
 .navbar-right > li {
-    margin-top: 15px;
+    margin-top: 10px;
+    line-height: 10px;
     border-left: 1px solid #efefef;
+}
+
+#navbarNav ul li a:hover{
+  color: #4aaaa5;
 }
 
 .navbar-right > li:first-of-type
@@ -34,13 +38,15 @@
 }
 
 #myname{
-  color: white;
-
+  color:snow;
 }
+
 #myname:hover{
-  color:yellow;
+  color:#4aaaa5;
 }
-
+#navlink{
+  color:snow;
+}
 
 
 /* heading inside the body container */
@@ -66,69 +72,133 @@ body{
 }
 
 
+
 /* footer  */
 
 #footer{
-   border-top: 8px solid #4aaaa5;
+   border-top: 5px solid #4aaaa5;
   
+}
+
+.footer-copyright{
+  font-size: 14px;
+  color:silver;
+  text-align: right;
 }
 #icons{
-  text-align: center;
+  text-align: right;
+  font-size: 25px;
 }
 
-#mail{
-  color:#4aaaa5;
-  text-align: center;
+#mail,#phone,#resume{
+  color:#e07b39;
+  font-size: 18px;
 }
 
-i{
-  font-size: 20px;
-}
 
 #github,
-#linkedin{
+#linkedin,#mailbox{
   transition: color 0.2s;
+  color:white;
 }
 
-#github:hover{
-  color:  #dc4e41;
+#github:hover,#mailbox:hover,#linkedin:hover{
+  color:  #4aaaa5;
 
 }
   
-#linkedin:hover{
-  color: #dc4e41;
+#contact{
+  color:#e07b39;
+  font-size: 18px;
 }
 
-/* portfolio page*/
-.caption {
-  width: 100%;
-  bottom: 10px;
-  position: absolute;
-  background: #4aaaa5;
+
+
+
+
+.portfolio {
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
-.thumbnail {
-  
-  border: 0 none;
-  box-shadow: none;
-  margin: 50px;
-  opacity: 0.9;
-  padding: 0;
-  max-width: 250px;  /* computed max-width of img-fluid */
+
+.content-div {
+    margin-top: 30px;
 }
 
-.caption h3 {
-  color: #fff;
-  border-bottom: none;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  margin-top: 0;
-  
+.rounded-card {
+    border-radius: 15px;
 }
 
- .caption:hover{
-  transform: rotate(-4deg) scale(1.1, 1.1);
-} 
+.card-title {
+    font-size: 30px;
+}
+
+.card-text {
+    font-size: 18px;
+}
+.card-img {
+    transition: transform .5s ease;
+    /* height: 15vw; */
+    /* object-fit: cover; */
+    /* margin:30px; */
+}
+
+.logo-btns {
+    margin: 0 auto; 
+    margin-bottom: 40px;
+}
+
+.grow:hover {
+    transform: scale(1.05);
+}
+
+.hover-img {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.hover-img:hover img {
+    transform: scale(1.15);
+}
+
+#about-div {
+    height: 100%;
+    overflow-x: hidden;
+}
+#connect-div{
+    overflow-x: hidden;
+    margin-bottom: 125px;
+}
+#portfolio-div {
+    overflow-x: hidden;
+    height: 100%;
+}
+#githubLink {
+    text-decoration: none;
+    color: #00E676;
+}
+
+#githubLink:hover {
+    color: #F19830;;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #portfolio {
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* contact page  */
 .btn {
