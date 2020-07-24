@@ -131,6 +131,7 @@ body{
 
 .card-title {
     font-size: 35px;
+    color:#e07b39 ;
 }
 
 .card-text {
@@ -138,6 +139,7 @@ body{
 }
 
 .card-img {
+  
     transition: transform .5s ease;
 }
 
